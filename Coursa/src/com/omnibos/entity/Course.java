@@ -1,4 +1,4 @@
-package entity;
+package com.omnibos.entity;
 
 public class Course {
 	

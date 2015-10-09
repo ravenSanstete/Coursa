@@ -10,7 +10,7 @@ public class Course {
 	private String post;
 	private String stdNumLimit;
 	private String location;
-	private String time;
+	private String duration;
 	private String extraInfo;
 	private String examInfo;
 	private String classBelong;
@@ -80,12 +80,12 @@ public class Course {
 		this.location = location;
 	}
 
-	public String getTime() {
-		return time;
+	public String getDuration() {
+		return duration;
 	}
 
-	public void setTime(String time) {
-		this.time = time;
+	public void setDuration(String duration) {
+		this.duration = duration;
 	}
 
 	public String getExtraInfo() {
